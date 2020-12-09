@@ -72,7 +72,7 @@ public class GornerTableModel extends AbstractTableModel {
             case 1:
                 return "Значение многочлена";
             default:
-                return "Значение четное";
+                return "Значение целой части четное";
         }
     }
     @Override
