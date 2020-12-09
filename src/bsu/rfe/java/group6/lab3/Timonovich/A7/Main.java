@@ -57,7 +57,7 @@ public class Main extends JFrame {
         Action aboutAuthorAction = new AbstractAction("О программе") {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(Main.this,"Якусик Александр \n2курс \n6 группа", "О программе", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(Main.this,"Тимонович Юрий \n2курс \n6 группа", "О программе", JOptionPane.INFORMATION_MESSAGE);
             }
         };
         showAuthorInfoMenuItem = aboutMenu.add(aboutAuthorAction);
